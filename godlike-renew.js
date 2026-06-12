@@ -3,8 +3,8 @@ import { appendFileSync } from 'fs';
 
 const GITHUB_OUTPUT = process.env.GITHUB_OUTPUT;
 const API_URL = 'https://panel.godlike.host';
-const SERVER_ID = '6ecbede2';
-const SERVER_UUID = '6ecbede2-5f1f-4a55-892a-13bcc0972730';
+const SERVER_ID = '72a4c1c6';
+const SERVER_UUID = '72a4c1c6-b90d-48f6-abbe-c64e5779cd22';
 
 function setOutput(msg) {
   if (GITHUB_OUTPUT) appendFileSync(GITHUB_OUTPUT, `msg<<EOF\n${msg}\nEOF\n`);
